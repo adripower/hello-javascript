@@ -11,3 +11,13 @@ function hola(nombre){
 }
 
 hola("adri")
+
+
+let edad=10;
+
+function modificador (edad){
+    edad = 25;
+    console.log ("dentro de la funcion "+ edad);
+}
+console.log(edad)
+modificador(edad)
