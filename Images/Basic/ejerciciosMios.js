@@ -51,3 +51,16 @@ let numero3 =true;
 console.log(typeof(numero1));
 console.log(typeof(numero2));
 console.log(typeof(numero3));
+
+//---------------------
+//! para escribir texto en la pagina web a de estar enlazado a la pagina para que funcioneo en la consola de esta
+// let texto =" texto que sale en la pagina web";
+// document.write(texto);
+
+//----------------------------------------
+
+let texto1 = "Estamos viendo los strings.";
+console.log(texto1[1])
+let guadaLetra = texto1[1]
+
+console.log(guadaLetra)
