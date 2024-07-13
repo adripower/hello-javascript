@@ -67,3 +67,6 @@ console.log(guadaLetra)
 
 //--------------------------
 //! aqui empiezan las array :)
+
+
+let pizzaMargarita = [ "masa", "tomate", "queso", "especies"];
