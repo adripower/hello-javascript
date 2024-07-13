@@ -66,3 +66,4 @@ let guadaLetra = texto1[1]
 console.log(guadaLetra)
 
 //--------------------------
+//! aqui empiezan las array :)
