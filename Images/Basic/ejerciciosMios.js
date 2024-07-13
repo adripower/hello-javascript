@@ -64,3 +64,5 @@ console.log(texto1[1])
 let guadaLetra = texto1[1]
 
 console.log(guadaLetra)
+
+//--------------------------
