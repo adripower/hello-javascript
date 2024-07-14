@@ -70,3 +70,8 @@ console.log(guadaLetra)
 
 
 let pizzaMargarita = [ "masa", "tomate", "queso", "especies"];
+
+console.log (pizzaMargarita[0])
+
+let pizzaMargarita2 = pizzaMargarita[2];
+console.log (pizzaMargarita2)
