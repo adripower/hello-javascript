@@ -61,7 +61,7 @@ console.log(typeof(numero3));
 
 let texto1 = "Estamos viendo los strings.";
 console.log(texto1[1])
-let guadaLetra = texto1[1]
+let guadaLetra = texto1[1] 
 
 console.log(guadaLetra)
 
@@ -81,3 +81,15 @@ let coches =[ "Mercedes", "Opel", "Peugeot", "Renault"];
 
 let frases ="Tengo un coche " + coches[1] + " de color " + colores[3] + "."
 console.log(frases)
+
+
+
+let num1 = 12;
+ num1 += 5;
+ console.log(num1)
+ num1 -=1
+ console.log(num1)
+ let multiplicacion = 10 * 10 * 10 * 10 *10;
+ console.log(multiplicacion)
+ let multi = 10 **5;
+ console.log(multi)
