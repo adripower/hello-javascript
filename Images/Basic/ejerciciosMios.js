@@ -75,3 +75,9 @@ console.log (pizzaMargarita[0])
 
 let pizzaMargarita2 = pizzaMargarita[2];
 console.log (pizzaMargarita2)
+
+let colores = ["rojo", "azul", "negro", "verde", "amarillo"];
+let coches =[ "Mercedes", "Opel", "Peugeot", "Renault"];
+
+let frases ="Tengo un coche " + coches[1] + " de color " + colores[3] + "."
+console.log(frases)
