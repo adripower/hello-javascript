@@ -1,118 +1,13 @@
-function hola(nombre){
-    if (nombre){
-        var saludo = "holi " + nombre;
-    }
-    console.log(saludo)
+let estacion = prompt("escribe una estacion en minusculas");
+
+switch (estacion) {
+    case "invierno":
+        alert("Todo es frio");        
+        break;
+    case "verano":
+        alert("Todo calor mucho calor");
+
+    default:
+        alert("na ni una ni otra")
+        break;
 }
-
-hola("adri")
-
-//--------------------------
-let edad=10;
-
-function modificador (edad){
-    edad = 25;
-    console.log ("dentro de la funcion "+ edad);
-}
-console.log(edad)
-modificador(edad)
-
-//----------------------------------------
-// ! te mira el largo del array arreglo y te imprime por consola cada uno de los elementos
-let arreglo =[1,2,3,4,5];
-for( let i=0;i<arreglo.length; i++){
-    let numero=arreglo[i];
-
-
-    console.log(numero)
-}
-
-//------------------------------------
-//! esta no se si esta bien del todo, el metodo map que te mira el largo del array y te lo 
-//! La función map se utiliza para recorrer cada elemento del array original y copiarlo en el nuevo array.
-var numero=[2,4,6,8,1,3];
-var numerito =numero.map(function(x){
-    return x;
-})
-console.log(numerito)
-//! Por ejemplo, si queremos crear un nuevo array que contenga el cuadrado de cada número del array original, podemos utilizar la siguiente función callback:
-function cuadrado(x) {
-    return x * x;
-  }
-  
-  var numerosCuadrados = numero.map(cuadrado);
-  console.log(numerosCuadrados); // [4, 16, 36, 64, 1, 9]
-//-----------------------------
-let numero1 =1;
-let numero2 ="2";
-let numero3 =true;
-
-
-console.log(typeof(numero1));
-console.log(typeof(numero2));
-console.log(typeof(numero3));
-
-//---------------------
-//! para escribir texto en la pagina web a de estar enlazado a la pagina para que funcioneo en la consola de esta
-// let texto =" texto que sale en la pagina web";
-// document.write(texto);
-
-//----------------------------------------
-
-let texto1 = "Estamos viendo los strings.";
-console.log(texto1[1])
-let guadaLetra = texto1[1] 
-
-console.log(guadaLetra)
-
-//--------------------------
-//! aqui empiezan las array :)
-
-
-let pizzaMargarita = [ "masa", "tomate", "queso", "especies"];
-
-console.log (pizzaMargarita[0])
-
-let pizzaMargarita2 = pizzaMargarita[2];
-console.log (pizzaMargarita2)
-
-let colores = ["rojo", "azul", "negro", "verde", "amarillo"];
-let coches =[ "Mercedes", "Opel", "Peugeot", "Renault"];
-
-let frases ="Tengo un coche " + coches[1] + " de color " + colores[3] + "."
-console.log(frases)
-
-
-
-let num1 = 12;
- num1 += 5;
- console.log(num1)
- num1 -=1
- console.log(num1)
- let multiplicacion = 10 * 10 * 10 * 10 *10;
- console.log(multiplicacion)
- let multi = 10 **5;
- console.log(multi)
-
- //video terminado en el minuto 02:07
-
- let numer1 = 10;
- let numer2 = 10;
- let numer3 = 20;
- let numer4 = 19;
- let comparador =numer1 > numer2;
- console.log (comparador);
-
- let numero10 = 7;
- if (numero10 > 10){
-    console.log("Es correcto es mayor")
-    
- }else console.log("no es mayor ");
-
-//  let nombre1;
-//  nombre1 =prompt("pon aqui tu nombre");
-// console.log(nombre1)
-
-//video terminado en el minuto 02:28
-let holi =10;
-alert (holi);
