@@ -93,3 +93,18 @@ let num1 = 12;
  console.log(multiplicacion)
  let multi = 10 **5;
  console.log(multi)
+
+ //video terminado en el minuto 02:07
+
+ let numer1 = 10;
+ let numer2 = 10;
+ let numer3 = 20;
+ let numer4 = 19;
+ let comparador =numer1 > numer2;
+ console.log (comparador);
+
+ let numero10 = 7;
+ if (numero10 > 10){
+    console.log("Es correcto es mayor")
+    
+ }else console.log("no es mayor ");
