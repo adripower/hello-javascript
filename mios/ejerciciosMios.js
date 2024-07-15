@@ -108,3 +108,11 @@ let num1 = 12;
     console.log("Es correcto es mayor")
     
  }else console.log("no es mayor ");
+
+//  let nombre1;
+//  nombre1 =prompt("pon aqui tu nombre");
+// console.log(nombre1)
+
+//video terminado en el minuto 02:28
+let holi =10;
+alert (holi);
