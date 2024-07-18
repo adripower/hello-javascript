@@ -1,3 +1,10 @@
+//! esta funucion es de una calculadora que pide al cargar la pagina que eligas del 1 al 4 que son las operaciones y
+//! Después introduces los números
+
+
+/*
+
+
 let operacion = prompt("¿Qué operación desea? 1-Sumar 2-Restar 3-Multiplicar 4-Dividir");
 let operando1 = parseInt(prompt("Introduce el primer número:"));
 let operando2 = parseInt(prompt("Introduce el segundo número:"));
@@ -40,3 +47,5 @@ switch (operacion){
         alert(" algo esta mal puesto");
         break;
 }
+
+*/
